@@ -6,7 +6,7 @@ function additon(num1, num2) {
 
 console.log(additon(3, 5))
 
-//Q2
+// Q2
 
 function hoursIntoSeconds(num) {
     return num * 60 * 60
@@ -14,7 +14,7 @@ function hoursIntoSeconds(num) {
 
 console.log(hoursIntoSeconds(2))
 
-//Q3
+// Q3
 
 function calcPerimeter(length, width) {
     return 2 * length + 2 * width
@@ -22,10 +22,32 @@ function calcPerimeter(length, width) {
 
 console.log(calcPerimeter(10, 20))
 
-//Q4
+// Q4
 
 function calcTriangleArea(base, height) {
     return 0.5 * base * height
 }
 
-console.log(calcTriangleArea(3, 2))
+console.log(calcTriangleArea(20, 20))
+
+// Q5
+
+function appendFrontend(string) {
+    return string + "Frontend"
+}
+
+console.log(appendFrontend("Apple"))
+
+// Q6
+
+function sumGreaterThan100(num1, num2) {
+    sum = num1 + num2
+    if(sum > 100) {
+        return true
+    }
+    else {
+        return false
+    }
+}
+
+console.log(sumGreaterThan100(100, -50))
