@@ -95,11 +95,15 @@ console.log(isOdd(3))
 // Q12
 
 function booleanInteger(num) {
-    if (num % 2 === 0)
-    {
-        return 1
-    }
-    return -1
+    return num % 2 === 0 ? 1 : -1
 }
 
 console.log(booleanInteger(5))
+
+// Q13
+
+function isLoggedInAndSubscribed(string1, string2) {
+    return string1 === 'LOGGED_IN' && string2 === 'SUBSCRIBED'
+}
+
+console.log(isLoggedInAndSubscribed('LOGGED_IN', 'SUBSCRIBED'))
