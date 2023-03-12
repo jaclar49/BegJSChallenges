@@ -67,3 +67,19 @@ function oppositeBoolean(bool) {
 }
 
 console.log(oppositeBoolean(false))
+
+// Q9
+
+function isNotZero(element) {
+    return element !== 0
+}
+
+console.log(isNotZero(null))
+
+// Q10
+
+function calcRemainder(num1, num2) {
+    return num1 % num2
+}
+
+console.log(calcRemainder(9, 8))
