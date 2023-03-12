@@ -83,3 +83,23 @@ function calcRemainder(num1, num2) {
 }
 
 console.log(calcRemainder(9, 8))
+
+// Q11
+
+function isOdd(num) {
+    return (num % 2) !== 0
+}
+
+console.log(isOdd(3))
+
+// Q12
+
+function booleanInteger(num) {
+    if (num % 2 === 0)
+    {
+        return 1
+    }
+    return -1
+}
+
+console.log(booleanInteger(5))
