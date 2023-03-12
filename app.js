@@ -41,8 +41,7 @@ console.log(appendFrontend("Apple"))
 // Q6
 
 function sumGreaterThan100(num1, num2) {
-    sum = num1 + num2
-    if(sum > 100) {
+    if(num1 + num2 > 100) {
         return true
     }
     else {
@@ -51,3 +50,20 @@ function sumGreaterThan100(num1, num2) {
 }
 
 console.log(sumGreaterThan100(100, -50))
+
+
+// Q7
+
+function lessThanOrEqualToZero(num) {
+    return num <= 0
+}
+
+console.log(lessThanOrEqualToZero(-2))
+
+// Q8
+
+function oppositeBoolean(bool) {
+    return !bool
+}
+
+console.log(oppositeBoolean(false))
